@@ -1,0 +1,48 @@
+$testColor: #dee04b;
+
+body {
+  background-color: black;
+}
+#all {
+  display: flex;
+  //background-color: #888888;
+  //color: #8abdff;
+}
+#root {
+  width: 75vw;
+  height: 94vh;
+  border: 2px solid #ffff1b;
+  background-color: #888888;
+}
+#userJnterface {
+  width: 20vw;
+  height: 94vh;
+  border: 2px solid #ffff1b;
+  background-color: #888888;
+}
+.menuRaw {
+  padding: 5px 10px 0px 10px;
+  display: block;
+  margin: none;
+}
+.textStyle {
+  font-size: 22px;
+  color: #ffff1b;
+  padding: 2px;
+  margin: 0;
+}
+.lab {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-size: 32px;
+  border: 5px black solid;
+}
+input {
+  text-align: center;
+}
+.pos {
+  width: 50px;
+}
