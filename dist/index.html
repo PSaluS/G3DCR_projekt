@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Grafika 3D czasu rzeczywistego</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="all">
+        <div id="root"></div>
+        <div id="userJnterface">
+            <div class="menuRaw">
+            <label class='textStyle' for="name">Name: </label>
+            <input id="name"name='name' value="" />
+            </div>
+            <div class="menuRaw">
+                <p class='textStyle'>Positon: </p>
+                <label for="posX">X:</label>
+                <input id="posX" class="pos" name="posX" value="">
+                <label for="posY">Y:</label>
+                <input id="posY" class="pos" name="posY" value="">
+                <label for="posZ">Z:</label>
+                <input id="posZ" class="pos" name="posZ" value="">
+            </div>
+            <div class="menuRaw">
+            <label class='textStyle' for="material1">Material: </label>
+            <select id="material" name="matrial">
+                <option value="whiteS">White shiny</option>
+                <option value="whiteM">White mat</option>
+                <option value="blackS">Black shiny</option>
+                <option value="blackM">Black mat</option>
+                <option value="darkWoodS">Dark wood shiny</option>
+                <option value="darkWoodM">Dark wood mat</option>
+                <option value="midWoodS">Mid wood shiny</option>
+                <option value="midWoodM">Mid wood mat</option>
+                <option value="lightWoodS">Bright wood shiny</option>
+                <option value="lightWoodM">Bright wood mat</option>
+                <option value="panelsWoodS">Wood panels shiny</option>
+                <option value="panelsWoodM">Wood panels mat</option>
+                <option value="panelsLightWoodS">Bright wood panels shiny</option>
+                <option value="panelsLightWoodM">Bright wood panels mat</option>
+                <option value="letherS">Lether shiny</option>
+                <option value="letherM">Lether mat</option>
+            </select>
+            <div id='lightColor' class="menuRaw"></div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="index.js"></script></body>
+
+</html>

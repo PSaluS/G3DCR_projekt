@@ -29,7 +29,6 @@ function onMouseClick( event ) {
 
     raycaster.setFromCamera( mouse, camera );
     const intersects = raycaster.intersectObjects( interactivObj, true );
-    // console.log( materials);
 
     if ( intersects.length > 0 )
 	{
@@ -53,8 +52,6 @@ function onMouseClick( event ) {
         document.getElementById('posY').value = null;
         document.getElementById('posZ').value = null;
     }
-    let cos
-    // console.log(activObject);
 
 }
 
